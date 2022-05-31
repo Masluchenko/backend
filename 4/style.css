@@ -45,5 +45,10 @@
 
 .error {
     border: 1px solid color;
-    box-shadow: 0px 10px 20px red;
+    box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.445);
+}
+
+.message {
+    color: red;
+    margin: 5px;
 }
