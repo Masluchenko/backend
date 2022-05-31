@@ -91,7 +91,7 @@
             </div>
             <div class="block">
                 <span class="block-title">Способности</span>
-                <select class="form-select form-select-lg mb-2" name="select[]" multiple <?php if ($errors['select']) {
+                <select name="select[]" multiple <?php if ($errors['select']) {
                                                                                                 print 'class="error"';
                                                                                             } ?>>
                     <option value="inf" <?php $arr = explode(',', $values['select']);
