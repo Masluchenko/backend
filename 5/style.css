@@ -52,3 +52,24 @@
     color: red;
     margin: 5px;
 }
+
+.logout-btn {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout-btn a {
+    border: 1px solid #0d6efd;
+    padding: 3px 4px;
+    border-radius: 7px;
+    background-color: #0d6efd;
+    color: #fff;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.logout-btn a:hover {
+    color: #fff;
+    background-color: #0553c9;
+}
