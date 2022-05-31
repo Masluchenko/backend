@@ -1,8 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
 
 .block {
@@ -10,8 +9,6 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0px;
-    
-    width: 900px;
 }
 
 .block img {
