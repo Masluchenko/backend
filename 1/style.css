@@ -4,18 +4,20 @@ body {
     justify-content: flex-start;
 }
 
-.block {
+.container {
     border: 1px solid lightgray;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0px;
+    
+    width: 900px;
 }
 
-.block img {
+.container img {
     width: 100%;
 }
 
-.block p {
+.container p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
