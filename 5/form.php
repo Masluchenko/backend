@@ -20,6 +20,9 @@
     }
     ?>
     <div class="form-container">
+        <div class="logout-btn">
+            <a href="login.php?logout=1" <?php (empty($_SESSION['login'])) ? print('style="display:none"') : print('style="display:inline-block"'); ?>>Выйти</a>
+        </div>
         <form method="POST" action="">
             <div class="input-group block">
                 <input type="text" name="name" placeholder="Ваше имя" <?php if ($errors['name']) {
