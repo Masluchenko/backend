@@ -41,35 +41,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
     if ($errors['name']) {
         setcookie('name_error', '', 100000);
-        $messages[] = '<div class="error">Введите имя.</div>';
+        $messages[] = '<div class="message">Введите имя.</div>';
     }
     if ($errors['email']) {
         setcookie('email_error', '', 100000);
-        $messages[] = '<div class="error">Введите верный email.</div>';
+        $messages[] = '<div class="message">Введите верный email.</div>';
     }
     if ($errors['date']) {
         setcookie('date_error', '', 100000);
-        $messages[] = '<div class="error">Введите корректную дату рождения.</div>';
+        $messages[] = '<div class="message">Введите корректную дату рождения.</div>';
     }
     if ($errors['gender']) {
         setcookie('gender_error', '', 100000);
-        $messages[] = '<div class="error">Выберите пол.</div>';
+        $messages[] = '<div class="message">Выберите пол.</div>';
     }
     if ($errors['limbs']) {
         setcookie('limbs_error', '', 100000);
-        $messages[] = '<div class="error">Выберите количество конечностей.</div>';
+        $messages[] = '<div class="message">Выберите количество конечностей.</div>';
     }
     if ($errors['select']) {
         setcookie('select_error', '', 100000);
-        $messages[] = '<div class="error">Выберите суперспособнос(ть/ти).</div>';
+        $messages[] = '<div class="message">Выберите суперспособнос(ть/ти).</div>';
     }
     if ($errors['bio']) {
         setcookie('bio_error', '', 100000);
-        $messages[] = '<div class="error">Расскажите о себе.</div>';
+        $messages[] = '<div class="message">Расскажите о себе.</div>';
     }
     if ($errors['policy']) {
         setcookie('policy_error', '', 100000);
-        $messages[] = '<div class="error">Ознакомтесь с политикой обработки данных.</div>';
+        $messages[] = '<div class="message">Ознакомтесь с политикой обработки данных.</div>';
     }
 
     $values = array();
