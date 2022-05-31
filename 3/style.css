@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-container {
+    width: 370px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.radios-container {
+    border: 1px solid lightgray;
+}
+
+.block {
+    margin-bottom: 7px;
+}
+
+.block input, .block textarea, .block select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.limbs-radio {
+    display: flex;
+}
+
+.radios input {
+    margin: 5px;
+}
+
+#limbs-block {
+    border-top: 1px solid lightgrey;
+}
